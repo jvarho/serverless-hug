@@ -1,2 +1,2 @@
 hug==2.4.8
-werkzeug==0.14.1
+werkzeug==0.15.6
