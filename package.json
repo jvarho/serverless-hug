@@ -1,0 +1,18 @@
+{
+  "name": "serverless-hug",
+  "version": "1.0.0",
+  "description": "Example/prototype for running hug applications under serverless",
+  "scripts": {
+    "sls-logs": "sls logs -f hello",
+    "sls-deploy": "sls deploy",
+    "sls-serve": "sls wsgi serve"
+  },
+  "author": "Jan Varho",
+  "license": "ISC",
+  "repository": "",
+  "devDependencies": {
+    "serverless": "^1.54.0",
+    "serverless-python-requirements": "^4.3.0",
+    "serverless-wsgi": "^1.7.3"
+  }
+}
